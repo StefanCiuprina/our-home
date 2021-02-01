@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/textViewTotalGroupBalanceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The total group balance is:"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/textViewTotalGroupBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewBalancePerUserTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance per user:"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/textViewBalancePerUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAmountSpentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You spent:"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/textViewAmountSpent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance" />
+
+        <Button
+            android:id="@+id/buttonClearShoppingList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear shopping list" />
+    </LinearLayout>
+</RelativeLayout>

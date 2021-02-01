@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_shopping_list">
+
+    <fragment
+        android:id="@+id/nav_shopping_list"
+        android:name="com.example.ourhome.ui.shoppingList.ShoppingListFragment"
+        android:label="@string/menu_shopping_list"
+        tools:layout="@layout/fragment_shopping_list" />
+
+    <fragment
+        android:id="@+id/nav_my_products"
+        android:name="com.example.ourhome.ui.myProducts.MyProductsFragment"
+        android:label="@string/menu_my_products"
+        tools:layout="@layout/fragment_my_products" />
+
+    <fragment
+        android:id="@+id/nav_our_products"
+        android:name="com.example.ourhome.ui.ourProducts.OurProductsFragment"
+        android:label="@string/menu_our_products"
+        tools:layout="@layout/fragment_our_products" />
+
+    <fragment
+        android:id="@+id/nav_balance"
+        android:name="com.example.ourhome.ui.BalanceFragment"
+        android:label="Balance"
+        tools:layout="@layout/fragment_balance" />
+
+    <fragment
+        android:id="@+id/nav_home_groups"
+        android:name="com.example.ourhome.ui.homeGroups.HomeGroupsFragment"
+        android:label="@string/menu_home_groups"
+        tools:layout="@layout/fragment_home_groups" />
+</navigation>
